@@ -85,11 +85,11 @@
 	body {
 		height: 100%;
 		background-color: #1C344E;/*#297D7D;*/
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-repeat: repeat,			no-repeat,			no-repeat;
+		/*background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+		*/background-repeat: repeat,			no-repeat,			no-repeat;
 		background-size: 100px 100px, cover,				cover;
 		background-position: top left,		center center,		bottom center;
 		background-attachment: fixed,			fixed,				fixed;
@@ -169,7 +169,7 @@
 		}
 
 		a:hover {
-			color: #F1646C;
+			color: #27A4DD;
 		}
 
 	strong, b {
@@ -303,7 +303,7 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #F1646C;
+			border-color: #27A4DD;
 		}
 
 	.select-wrapper {
@@ -404,13 +404,13 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			color: #F1646C;
+			color: #27A4DD;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #F1646C;
+			border-color: #27A4DD;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -546,7 +546,7 @@
 					}
 
 					ul.icons li a:hover:before {
-						text-shadow: 1.25px 0px 0px #F1646C, -1.25px 0px 0px #F1646C, 0px 1.25px 0px #F1646C, 0px -1.25px 0px #F1646C;
+						text-shadow: 1.25px 0px 0px #27A4DD, -1.25px 0px 0px #27A4DD, 0px 1.25px 0px #27A4DD, 0px -1.25px 0px #27A4DD;
 					}
 
 					ul.icons li a:before {
@@ -562,7 +562,7 @@
 					}
 
 					ul.icons li a:hover {
-						border-color: #F1646C;
+						border-color: #27A4DD;
 					}
 
 			@media screen and (max-width: 480px) {
@@ -636,8 +636,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: #F1646C;
-			color: #F1646C !important;
+			border-color: #27A4DD;
+			color: #27A4DD !important;
 		}
 
 		input[type="submit"].icon,
